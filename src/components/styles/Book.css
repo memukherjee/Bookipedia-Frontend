@@ -1,0 +1,59 @@
+.book-items{
+    margin: 10px;
+    border: 2px solid;
+    width: 20%;
+}
+
+@media (max-width: 1000px) {
+    .book-items{
+        width: 25%;
+    }
+}
+
+@media (max-width: 750px) {
+    .book-items{
+        width: 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .book-items{
+        width: 90%;
+    }
+}
+
+.book-image{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    max-width: 150px;
+    max-height: 200px;
+    display: block;
+}
+
+.books-name{
+    display: block;
+    word-wrap: break-word;
+}
+
+.authors-name{
+    display: inline;
+}
+
+.view-details{
+    display: block;
+    margin: 15px 0;
+    text-decoration: none;
+    background-color: rgb(41, 108, 195);
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.05);
+    padding: 5px 0;
+    transition: 200ms;
+}
+
+.view-details:hover{
+    background-color: rgb(23, 39, 59);
+    transform: scale(1.1);
+    border-radius: 20px;
+}

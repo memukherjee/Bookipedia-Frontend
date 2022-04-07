@@ -1,0 +1,38 @@
+.navbar{
+    background-color: rgba(51, 111, 216, 0.75);
+    padding: 20px 25px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.nav-items{
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    margin-left: 15px;
+}
+
+.avatar{
+    width: 35px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+
+.username{
+    color: #fff;
+}

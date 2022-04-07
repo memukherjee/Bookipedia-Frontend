@@ -1,0 +1,21 @@
+.search-btn{
+    background-color: rgba(70, 132, 239, 0.896);
+    border: 2px solid #000;
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    margin-left: 15px;
+    line-height: 15px;
+    border-radius: 20px;
+    box-shadow: 0 5px #999;
+}
+
+.search-btn:hover{
+    background-color: rgb(108, 151, 225);
+}
+
+.search-btn:active{
+    transform: translateY(3px);
+    box-shadow: 0 2px #666;
+}
+

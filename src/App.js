@@ -21,8 +21,6 @@ function App() {
       .get(`${process.env.REACT_APP_API_ENDPOINT}/auth/login/success`, {
         withCredentials: true,
         headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json",
           "Access-Control-Allow-Credentials": true,
         },
       })

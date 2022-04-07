@@ -22,6 +22,8 @@ function App() {
         withCredentials: true,
         headers: {
           "Access-Control-Allow-Credentials": true,
+          'Content-Type': 'application/json;charset=UTF-8',
+          "Access-Control-Allow-Origin": "*",
         },
       })
       .then((res) => {
